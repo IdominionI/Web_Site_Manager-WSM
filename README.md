@@ -22,12 +22,10 @@ Inspiration for doing this came from Dreamwaever which has these capabilities, b
 of such software, I decided to try and emulate as best I could this feature that could not be found in any other application. It only took me a few hours to figure
 out the basics of how to do this from scratch, and I was agast why no other software that edits and manages html web pages and files has not this feature.
 
-This is still in development, but most of the features required are present. Moving, renaming, deleting and displaying of files with some simple
-analytics such as viewing file links and selecting file types are present and functional. 
+This is considered as being complete in the goals set out to achieve and has been successfull for personal use purposes. However there may still be some undiscovered
+pronblems and bugs that will be resolved in any future updates.
 
 The application uses ImGui and is coded in ISO C++20 Standard as a visual studio community project.
-
-A user manual and code documentation are not yet provided, but will be inculded in a future update.
 
 ## Installation:
 
