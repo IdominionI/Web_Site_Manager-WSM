@@ -37,21 +37,21 @@ This project is a Visual Studio 2022 SDK 10 ISO C++ 20 Standard project set up f
 
 2 : Open visual studio and open the visual studio project ws_manager.sln file.
 
-3 : Compile and run the code. 
+3 : Compile and run the code.
+
+4 : the resultant compiled code and dependent files that the application needs to run is in the Bin/x64/Release and Bin/x64/Debug directories.
+
+or
+
+Copy all of the contents in the directory Executable/WSM to a desired location and open the Executable ws_manager.exe. 
+This is a Windows only application compiled in Visual studio 26 and tested on a Windows 11 system.
+
+It seems github got something wrong as no WSM subdirectory was uploaded and it named the directory Executable to Executable/WSM.
+Looks like a github directory copy naming bug here that was initiated from Visual Studio 26.
 
 ## How to use
 
-1  : One will need a website directory structure with all the files to display html web pages in a browser present
-
-2  : Select the drop down menu "Project" in the main application window and select the add project option. Navigate to the directory where the website project exists and select the website project directory to store the project directory
-	 
-3  : In the main window panel select with the left mousebutton the drop down combo button next to the text Select Web Site Project and select the directory that was defined in step 2.
-
-4  : A tree structure of the directories and files that exist in the selected web site project should now be displayed.
-
-5  : Selection of files and directories is made with the left mouse button. Multiple selections by pressing the control key.
-
-6  : Hovering over a file or directory and pressing the right mouse button will display menu options to take actions on the hovered item or selection.
+A user guide provided in pdf format is available in the documentation directory that gives a detailed descritption and explaination on how to use this application.
 
 ## Dependencies
     These are a list of the current third party dependacies for this project
@@ -60,36 +60,12 @@ This project is a Visual Studio 2022 SDK 10 ISO C++ 20 Standard project set up f
     glew
     ImGui
     imgui-docking
-    spdlog
+	tinyFileDialog
 
+Only one Dependency libs to be defined as glfw is compiled from code and no glfw lib referenced for this project.
 
-Dependency source header files to be defined where $(ProjectDir) is the project directory where the header files are located
-
-    $(ProjectDir)thirdparty\assimp
-    $(ProjectDir)thirdparty\glew\include
-    $(ProjectDir)thirdparty\glfw\include
-    $(ProjectDir)thirdparty\glm-1.0.1
-    $(ProjectDir)thirdparty\ImGUI\imgui_docking
-    $(ProjectDir)thirdparty\ImGUI\imgui_docking\backends
-    $(ProjectDir)thirdparty\stb_image\include
-    $(ProjectDir)thirdparty\tiny_obj_loader\include
-    $(ProjectDir)thirdparty\tinyply\include
-    $(ProjectDir)thirdparty\tinyxml\include
-    $(ProjectDir)thirdparty\ImGuiFileDialog
-    $(ProjectDir)thirdparty\utf8\include
-    $(ProjectDir)thirdparty\glad\include
-    $(ProjectDir)thirdparty\spdlog\include
-
-Dependency libs to be defined where $(ProjectDir) is the project directory where the lib files are located
-
-    $(ProjectDir)libs\Release\glfw3.lib
-    $(ProjectDir)libs\Release\glew32.lib
-    $(ProjectDir)libs\Release\spdlog.lib
-    $(ProjectDir)libs\Release\assimp-vc142-mtd.lib
-    $(ProjectDir)libs\Release\imgui_gradient.lib 
     opengl32.lib
 
-Note : The existing lib files have been compiled for visual studio SDK 10.0 version using  ISO C++ 20 language standard. Thus may not work for other versions of visual  studio and C++ language standard and need to be recompiled.
 
 ## Source Code
 
@@ -97,5 +73,5 @@ Because this is a working project, within the source code is a lot of debugging 
 
 Much of the code has been written for as easy reading as much as possible to understand what the code does and is for. However some of the code that has been adopted or copied from 3rd parties may follow a different naming convention.
 
-
+A pdf file WSM_source_notes_draft00 is provided that gives a detailed description of the core design and coding of this application. 
 
