@@ -1,0 +1,6 @@
+[2025-08-29 13:46:23] INFO: glfw_openGL_window_class :: GLEW initialized successfully
+[2025-08-29 13:46:23] INFO: OpenGL Vendor: NVIDIA Corporation
+[2025-08-29 13:46:23] INFO: OpenGL Renderer: NVIDIA GeForce RTX 5080/PCIe/SSE2
+[2025-08-29 13:46:23] INFO: OpenGL Version: 4.6.0 NVIDIA 576.88
+[2025-08-29 13:46:23] INFO: OpenGL Shading Language Version: 4.60 NVIDIA
+[2025-08-29 13:46:23] INFO: Application GLFW OpenGL window : Web Sight Manager : created.
