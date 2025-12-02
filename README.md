@@ -31,7 +31,7 @@ A user manual and code documentation are not yet provided, but will be inculded 
 
 ## Installation:
 
-This project is a Visual Studio 2022 SDK 10 ISO C++ 20 Standard project set up for windows. 
+This project is a Visual Studio 2022/2026 using SDK 10 ISO C++ 20 Standard project set up for windows. 
 
 1 : Download the files within the ws_manager repository to a desired directory location.
 
