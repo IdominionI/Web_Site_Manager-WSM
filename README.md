@@ -23,7 +23,7 @@ of such software, I decided to try and emulate as best I could this feature that
 out the basics of how to do this from scratch, and I was agast why no other software that edits and manages html web pages and files has not this feature.
 
 This is considered as being complete in the goals set out to achieve and has been successfull for personal use purposes. However there may still be some undiscovered
-pronblems and bugs that will be resolved in any future updates.
+problems and bugs that will be resolved in any future updates.
 
 The application uses ImGui and is coded in ISO C++20 Standard as a visual studio community project.
 
