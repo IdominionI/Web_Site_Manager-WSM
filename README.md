@@ -13,7 +13,7 @@ The Web Site Manager application is not a conventional file manager with two or 
 the file structure of a web project as a tree. (Fig 01) 
 
 <div align="center">
-    <img src="P:\Programming\Visual_Studio\Projects\ws_manager\Documentation\wsm_screenshot00.png" width="600px"</img> 
+    <img src="./Documentation/wsm_screenshot00.png" width="600px"</img> 
 </div>
  
  <p style="text-align: center;">Fig 01</p>
